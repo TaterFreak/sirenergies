@@ -96,7 +96,7 @@ new class () extends Component {
         </button>
     </div>
     <aside x-bind:class="sidebar.open ? '!translate-x-0 w-90' : ''" @mouseover="sidebar.openSidebar()"
-        @moquseout="sidebar.closeSidebar()"
+        @mouseout="sidebar.closeSidebar()"
         class="shadow-sm fixed top-16 left-0 z-40 w-18 h-screen transition-all -translate-x-full lg:translate-x-0 overflow-x-hidden">
         <div class="h-full pt-4 pb-20 overflow-y-auto bg-background-ternary">
             <ul class="space-y-2 font-medium w-90">
