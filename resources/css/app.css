@@ -142,7 +142,7 @@
   :root {
     --bg-primary: #e3e3e3;
     --bg-secondary: #f7f7f7;
-    --bg-ternary: #121925;
+    --bg-ternary: #1f2637;
     --bg-ternary-hover: #353c55;
 
     --font-primary: #2e2e2e;
@@ -158,9 +158,9 @@
 
     --notification: #bf1a30;
 
-    --button-primary: #121925;
+    --button-primary: #1f2637;
     --button-primary-font: #e7e7e7;
-    --button-primary-hover: oklch(0.373 0.034 259.733);
+    --button-primary-hover: #1f2637;
     --button-toggle: #e3e3e3;
     --button-toggled: #2e2e2e;
     --button-toggle-after: #2e2e2e;
