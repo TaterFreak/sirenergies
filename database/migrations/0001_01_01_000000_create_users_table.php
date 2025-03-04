@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('defaultCompany')->default('company-1');
+            $table->string('image')->default('https://avatars.githubusercontent.com/u/6029883?v=4');
             $table->rememberToken();
             $table->timestamps();
         });
